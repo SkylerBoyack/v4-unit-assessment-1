@@ -9,7 +9,7 @@
     It should be a string containing your best definition of what Git is.
 */
 
-//CODE HERE
+let gitDefinition = "git is a command applied with another command in order to do something that uses github"
 
 //////////////////PROBLEM 2////////////////////
 /*
@@ -17,7 +17,7 @@
     It should be a string containing your best definition of what GitHub is.
 */
 
-//CODE HERE
+let gitDefinition = "Github uses a cloud to save files rather then you doing it on your pc. It will also allow others to make copies of your files. It also saves old versions of your files that you can go and return to if needed"
 
 //////////////////PROBLEMS 3 - 9////////////////////
 /*
@@ -33,7 +33,11 @@
     following the guidelines above to describe the init command.
 */
 
-//CODE HERE
+let init={
+    gitinit:"git init makes new repositorys",
+    code: "git init"
+}
+
 
 //////////////////PROBLEM 4////////////////////
 /*
@@ -41,7 +45,10 @@
     following the guidelines above to describe the clone command.
 */
 
-//CODE HERE
+let clone={
+gitclone:"clone is the command clone or copy a repository from someone else",
+code: "git clone"
+}
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -49,7 +56,10 @@
     following the guidelines above to describe the status command.
 */
 
-//CODE HERE
+let stauts={
+gitstatus:"Is how you check the stauts of your file, where it has been updates, initiated or more",
+code: "git status"
+}
 
 //////////////////PROBLEM 6////////////////////
 /*
@@ -57,7 +67,10 @@
     following the guidelines above to describe the add command.
 */
 
-//CODE HERE
+let add={
+gitadd:"This is how you add and file you are ready to push into git",
+code:"git add"
+}
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -65,7 +78,11 @@
     following the guidelines above to describe the commit command.
 */
 
-//CODE HERE
+let commit ={
+gitcommit:'This is how you commit your files to be preped to push',
+code:"git commit"
+
+}
 
 //////////////////PROBLEM 8////////////////////
 /*
@@ -73,7 +90,10 @@
     following the guidelines above to describe the command to add a remote location to your git repository.
 */
 
-//CODE HERE
+let addRemote={
+gitaddremote:"addremotre takes in two argyments ",
+code:"git add remote"
+}
 
 //////////////////PROBLEM 9////////////////////
 /*
@@ -81,4 +101,7 @@
     following the guidelines above to describe the push command.
 */
 
-//CODE HERE
+let push={
+gitpush:"this pushes your files (updates them) to github after all previous steps",
+code: "git push"
+}
